@@ -1,0 +1,32 @@
+{
+  "name": "easyeploy",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "ezd": "./ezd"
+  },
+  "scripts": {
+  },
+
+  "dependencies": {
+    "async": "^2.1.2",
+    "commander": "^2.12.2",
+    "dingtalk-robot-sender": "^1.1.0",
+    "dockerode": "^2.5.3",
+    "dockerode-authconfig": "^1.0.1",
+    "extend": "^3.0.1",
+    "ignore": "^3.3.7",
+    "ignore-file": "^1.1.2",
+    "lodash": "^4.17.4",
+    "mustache": "^2.3.0",
+    "node-docker-api": "^1.1.18",
+    "node-yaml": "^3.1.1"
+  }
+
+}
